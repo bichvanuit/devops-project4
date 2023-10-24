@@ -59,7 +59,7 @@ jobs:
       - name: Build Docker image
         run: |
           cd ./starter/frontend
-          docker build -t frontend --build-arg=REACT_APP_MOVIE_API_URL=http://a710442df031745319e5e45ea81b0b2c-555377878.us-east-1.elb.amazonaws.com/ .
+          docker build -t frontend --build-arg=REACT_APP_MOVIE_API_URL=http://a4d9053898c084301be9ca6caa77de10-984537854.us-east-1.elb.amazonaws.com/ .
 
       - name: Tag Docker Image
         run: |
